@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surfaceView"></SurfaceView>
+
+    <Button
+        android:textFontWeight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logout"/>
+
+    <Button
+        android:textFontWeight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Find Users"
+        android:id="@+id/findUsers"/>
+
+    <Button
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="capture"
+        android:id="@+id/capture"></Button>
+
+</FrameLayout>
